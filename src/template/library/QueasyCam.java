@@ -118,6 +118,7 @@ public class QueasyCam {
 		if (tilt == PConstants.PI/2) tilt += 0.001f;
 
 		forward = new PVector(PApplet.cos(pan), PApplet.tan(tilt), PApplet.sin(pan));
+		forward.normalize();
 		right = new PVector(PApplet.cos(pan - PConstants.PI/2), 0, PApplet.sin(pan - PConstants.PI/2));
 		
 		prevMouse = new Point(mouse.x, mouse.y);
