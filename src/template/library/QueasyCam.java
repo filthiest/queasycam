@@ -22,7 +22,7 @@
  * 
  * @author      Josh Castle https://twitter.com/jrc03c
  * @modified    07/02/2016
- * @version     1.1 (2)
+ * @version     1.3 (3)
  */
 
 package queasycam;
@@ -36,7 +36,7 @@ import processing.core.*;
 import processing.event.KeyEvent;
 
 public class QueasyCam {
-	public final static String VERSION = "1.1";
+	public final static String VERSION = "1.3";
 
 	public float speed;
 	public float sensitivity;
